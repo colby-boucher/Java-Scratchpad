@@ -1,4 +1,5 @@
 package com.teksystems;
+import javax.naming.ldap.Control;
 import java.util.Deque;
 import java.util.ArrayDeque;
 
@@ -11,20 +12,22 @@ public class Main {
         ///////////////////////////////////////////////////////////////////////
 
         //Core Java - Exercises - Variables
-	    /*Variables.q1();
+	    /*
+	    Variables.q1();
         Variables.q2();
         Variables.q3();
         Variables.q4();
         Variables.q5();
         Variables.q6();
         Variables.q7();
-        Variables.q8();*/
+        Variables.q8();
+        */
 
         ///////////////////////////////////////////////////////////////////////
 
         //Core Java - Exercises - Operators & Numbers
         //This is hideously stupid, I know
-
+        /*
         //Q1
         //Trust me the output really is binary, but it's binary as a Deque of booleans
         //That way you can do some fun math with 'em, as opposed to if they were just
@@ -89,6 +92,23 @@ public class Main {
         //Q8
         System.out.println("\nQuestion 8");
         OperatorsNumbers.Q8();
+
+         */
+        ///////////////////////////////////////////////////////////////////////////
+
+        //Core Java - Exercise - Control Flow (Conditional) Statements
+
+        System.out.println("Question 1");
+        ControlFlow.Q1();
+        System.out.println("\nQuestion 2");
+        ControlFlow.Q2();
+        System.out.println("\nQuestion 3, note that a value of 10 is missed entirely per the instructions");
+        ControlFlow.Q3();
+        System.out.println("\nQuestion 4");
+        ControlFlow.Q4();
+        System.out.println("\nQuestion 5");
+        ControlFlow.Q5();
+        System.out.println("\nQuestion 6");
+        ControlFlow.Q6();
     }
-    ///////////////////////////////////////////////////////////////////////////
 }
