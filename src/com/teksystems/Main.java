@@ -1,7 +1,4 @@
 package com.teksystems;
-import javax.naming.ldap.Control;
-import java.util.Deque;
-import java.util.ArrayDeque;
 
 public class Main {
 
@@ -97,7 +94,7 @@ public class Main {
         ///////////////////////////////////////////////////////////////////////////
 
         //Core Java - Exercise - Control Flow (Conditional) Statements
-
+        /*
         System.out.println("Question 1");
         ControlFlow.Q1();
         System.out.println("\nQuestion 2");
@@ -110,5 +107,28 @@ public class Main {
         ControlFlow.Q5();
         System.out.println("\nQuestion 6");
         ControlFlow.Q6();
+        */
+        ///////////////////////////////////////////////////////////////////////
+        //Core Java - Exercise - Arrays
+        System.out.println("\nQuestion 1");
+        MyArrays.Q1();
+        System.out.println("\nQuestion 2");
+        System.out.println(MyArrays.Q2()); //Question did say to RETURN the middle element after all
+        System.out.println("\nQuestion 3");
+        MyArrays.Q3();
+        System.out.println("\nQuestion 4");
+        MyArrays.Q4();
+        System.out.println("\nQuestion 5");
+        MyArrays.Q5();
+        System.out.println("\nQuestion 6");
+        MyArrays.Q6();
+        System.out.println("\nQuestion 7");
+        MyArrays.Q7();
+        System.out.println("\nQuestion 8");
+        MyArrays.Q8();
+        System.out.println("\nQuestion 9");
+        MyArrays.Q9();
+        System.out.println("\nQuestion 10");
+        MyArrays.Q10();
     }
 }
