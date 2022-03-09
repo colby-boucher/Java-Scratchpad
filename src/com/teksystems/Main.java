@@ -110,7 +110,7 @@ public class Main {
         */
         ///////////////////////////////////////////////////////////////////////
         //Core Java - Exercise - Arrays
-        System.out.println("\nQuestion 1");
+        /*System.out.println("\nQuestion 1");
         MyArrays.Q1();
         System.out.println("\nQuestion 2");
         System.out.println(MyArrays.Q2()); //Question did say to RETURN the middle element after all
@@ -129,6 +129,20 @@ public class Main {
         System.out.println("\nQuestion 9");
         MyArrays.Q9();
         System.out.println("\nQuestion 10");
-        MyArrays.Q10();
+        MyArrays.Q10();*/
+
+        KidUser isabella= new KidUser(10,"Kids");
+        KidUser billybob= new KidUser(18,"Fiction");
+        AdultUser pine= new AdultUser(5,"Kids");
+        AdultUser matt= new AdultUser(23,"fiction");
+
+        isabella.registerAccount();
+        isabella.requestBook();
+        billybob.registerAccount();
+        billybob.requestBook();
+        pine.registerAccount();
+        pine.requestBook();
+        matt.registerAccount();
+        matt.requestBook();
     }
 }
